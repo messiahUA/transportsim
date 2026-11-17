@@ -30,8 +30,8 @@ The guiding idea is that **good decisions in the game should resemble good decis
 
 ### What makes it interesting?
 
-- **📐 True 1:1 scale** — One meter is one meter; one simulated second is one second. Distances, speeds, journey times, and infrastructure geometry follow consistent real-world units. No more confusion.
-- **🧑‍🤝‍🧑 Individual citizens** — People have homes, jobs, needs, and preferences. Their decisions generate transport demand instead of relying on arbitrary passenger counts.
+- **📐 True 1:1 scale** — One meter is one meter; one simulated second is one second. Distances, speeds, journey times, and infrastructure geometry follow consistent real-world units, with no stretched maps or compressed distances. To play through decades, the calendar can run faster than the real-time clock: you choose how many days of economy each simulated day stands for, and the speed controls go up to as fast as your machine can manage.
+- **🧑‍🤝‍🧑 Individual citizens** — People have homes, jobs, needs, and preferences, and each vehicle on the road carries one citizen: no representative or weighted traffic. Their decisions generate transport demand instead of relying on arbitrary passenger counts.
 - **🏙️ Living world** — Towns and industries develop in response to accessibility, population, economic opportunities, and other conditions. You influence their growth through transport.
 - **🏭 Interconnected economy** — Businesses, employment, production, consumption, and logistics are intended to form a coherent economic system that responds to changing circumstances.
 - **🚂 Meaningful transport management** — Plan infrastructure, operate vehicles and services, manage schedules, fares, maintenance, and finances. Decisions have costs and long-term consequences.
@@ -51,14 +51,13 @@ At the same time, TransportSim should be enjoyable to play, not merely interesti
 A few deliberate choices:
 
 - **Single-player**, to prioritize simulation complexity and performance.
-- **Configurable playable area**, from a city to a region or potentially an entire country.
 - **Performance-conscious**, targeting ordinary modern PCs rather than high-end hardware.
 - **Data-driven and moddable**, with extensibility as a long-term goal.
 - **Simple, procedural low-poly graphics**, prioritizing gameplay over visuals.
 
 ## Development & community
 
-Development is at a very early, experimental stage. Initial simulation systems are being implemented and tested, particularly around citizens, economic behavior, performance optimizations and pathfinding.
+Development is at a very early, experimental stage. Initial simulation systems are being implemented and tested, particularly around citizens, economic behavior, road simulation, and performance.
 
 **There is no playable release yet, and the source code is currently private.** I might make it available for non-commercial collaboration in the future.
 
